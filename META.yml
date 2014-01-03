@@ -1,10 +1,10 @@
 --- #YAML:1.0
 name:               Shardcache
-version:            0.01
+version:            0.02
 abstract:           Perl extension for libshardcache which allows to run Shardcache nodes from perl
 author:
     - Andrea Guzzo <xant@xant.net>
-license:            unknown
+license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0

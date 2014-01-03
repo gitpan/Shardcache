@@ -1,6 +1,6 @@
 package Shardcache;
 
-use 5.008005;
+use v5.8;
 use strict;
 use warnings;
 use Carp;
@@ -33,7 +33,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub AUTOLOAD {
     # This AUTOLOAD is used to 'autoload' constants from the constant()
